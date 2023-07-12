@@ -1,10 +1,19 @@
 [tool.poetry]
-name = "templete-python-repository"
+name = "virtual_secretary_backend"
 version = "0.1.0"
 description = ""
 authors = ["akubug0613 <taogo.763@gmail.com>"]
 readme = "README.md"
-packages = [{include = "templete_python_repository"}]
+packages = [{include = "virtual_secretary_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.0"
+uvicorn = "^0.22.0"
+openai = "^0.27.8"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core"]
