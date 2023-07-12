@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "templete-python-repository"
+version = "0.1.0"
+description = ""
+authors = ["akubug0613 <taogo.763@gmail.com>"]
+readme = "README.md"
+packages = [{include = "templete_python_repository"}]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
